@@ -22,4 +22,10 @@ tasks {
         archiveBaseName.set("Tutorial")
         archiveVersion.set("")
     }
+
+    processResources {
+        filesMatching("**/*.yml") {
+            expand(project.properties)
+        }
+    }
 }

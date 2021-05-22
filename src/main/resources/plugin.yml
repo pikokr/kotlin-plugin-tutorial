@@ -1,3 +1,5 @@
-name: Tutorial
-version: 1.0.0
-main: com.github.pikokr.tutorial.TutorialPlugin
+name: $pluginName
+version: $version
+main: $pluginMain
+depend:
+  - Kotlin
